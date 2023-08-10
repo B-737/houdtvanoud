@@ -11,19 +11,37 @@
     padding: 0;
 }
 
+.design{
+    padding: 4rem 0;
+}
+
 .design-left{
     text-align: right;
-    align-self: center
-
+    align-self: center;
 }
+
+.design-right{
+    align-self: center;
+}
+
 
 .design-left2{
     align-self: center;
 }
 
-.design-image{
-    /* width: 60%; */
+.design-right-2{
+    background-color: hsl(0, 0%, 100%, 0.7);
+    
+    position: relative;
+    z-index: 1;
+    align-self: center;
 }
+
+.design-image{
+    width:auto;
+}
+
+
 @media (min-width:768px){
     .std-pad{
         padding: 1rem 2rem;
