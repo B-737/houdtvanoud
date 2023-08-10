@@ -1,3 +1,6 @@
+*{
+    background-color: #ededed;
+}
 .land-pad{
     padding: 1rem;
 }
@@ -25,10 +28,13 @@
     text-align: center;
 }
 
+/* DESIGN SECTION  */
+
 .design{
     padding: 4rem 0;
 }
 
+/* DESIGN TOP  */
 .design-left{
     text-align: right;
     align-self: center;
@@ -38,28 +44,33 @@
     align-self: center;
 }
 
-
+/* DESIGN BOTTOM IMAGE */
 .design-left2{
-    align-self: center;
+
 }
 
+
 .design-right-2{
-    background-color: hsl(0, 0%, 100%, 0.7);
-    
-    position: relative;
-    z-index: 1;
+    background-color: hsla(0, 0%, 86%, 0.8);
     align-self: center;
+    line-height: 1.6;
 }
 
 .design-image{
+    width: 85vw;
+    max-width: 700px;
+    max-height: 400px;
     object-fit:cover;
-    text-align: center;
 }
 
 
 @media (min-width:768px){
     .std-pad{
         padding: 1rem 2rem;
+    }
+
+    .land-pad{
+        padding: 1rem;
     }
 
     
@@ -69,6 +80,10 @@
 @media (min-width:992px){
     .std-pad{
         padding: 3% 15%;
+    }
+
+    .land-pad{
+        padding: 1rem 15%;
     }
 
     
