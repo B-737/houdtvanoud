@@ -6,3 +6,38 @@
 .min-pad{
     padding: 0.2rem;
 }
+
+#null-pad{
+    padding: 0;
+}
+
+.design-left{
+    text-align: right;
+    align-self: center
+
+}
+
+.design-left2{
+    align-self: center;
+}
+
+.design-image{
+    /* width: 60%; */
+}
+@media (min-width:768px){
+    .std-pad{
+        padding: 1rem 2rem;
+    }
+
+    
+
+}
+
+@media (min-width:992px){
+    .std-pad{
+        padding: 3% 15%;
+    }
+
+    
+
+}
