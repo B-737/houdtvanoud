@@ -66,7 +66,7 @@ h1 h2 h3 h4 h5 p {
       rgba(0, 0, 0, 0.6)
     ),
     /* bottom, image */
-    url(./resources/images/herodark.png);
+    url(/resources/images/herodark.png);
 
     /* background-image: url(/resources/images/herodark.png); */
     background-size: cover;
