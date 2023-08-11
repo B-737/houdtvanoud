@@ -6,6 +6,24 @@
     <title>Houdt van Oud</title>
 
     <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- fonts  -->
+    <!-- Libre Baskerville  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Montserrat  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Bootstrap cdn -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
@@ -38,8 +56,14 @@
   <body>
     <!-- landing zone -->
     <section class="land-pad" id="landing">
-      <nav class="navbar navbar-expand-sm navbar-light bg-transparent">
-        <a class="navbar-brand" id="navbar-brand" href="#">HoudtvanOud</a>
+      <nav class="navbar navbar-expand-sm navbar-dark bg-transparent">
+        <a class="navbar-brand" id="navbar-brand" href="#">
+          <div class="brand-long dark-section">
+            <p class="brand-first">houdt</p>
+            <p class="brand-mid">van</p>
+            <p class="brand-last">oud</p>
+          </div>
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -68,11 +92,11 @@
       </nav>
 
       <div id="hero" class="row">
-        <div class="col-md-7 hero-left">
+        <div class="col-md-7 hero-left dark-section">
           <h1>Doen waar u geen kennis, zin of tijd voor heeft.</h1>
           <p>Kijk hoe wij het aanpakken of neem direct contact op.</p>
-          <button>Projecten</button>
-          <button>Contact</button>
+          <button class="btn btn-light btn-lg btn-left"><i class="fa-solid fa-clipboard"></i> Projecten</button>
+          <button class="btn btn-outline-light btn-lg"><i class="fa-solid fa-message"></i> Contact</button>
         </div>
 
         <div class="col-md-6 hero-right"></div>
