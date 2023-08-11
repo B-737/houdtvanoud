@@ -65,10 +65,9 @@ h1 h2 h3 h4 h5 p {
       rgba(0, 0, 0, 0.3), 
       rgba(0, 0, 0, 0.6)
     ),
+    
     /* bottom, image */
-    url(https://b-737.github.io/Houdt-van-Oud/resources/images/herodark.png);
-
-    /* background-image: url(/resources/images/herodark.png); */
+    url("https://b-737.github.io/Houdt-van-Oud/resources/images/herodark.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
