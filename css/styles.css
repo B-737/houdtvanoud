@@ -118,7 +118,7 @@ h2 {
         rgba(0, 0, 0, 0.9)
       ),
       /* bottom, image */
-        url(/resources/images/theowner-sm.png);
+        url("https://b-737.github.io/Houdt-van-Oud/resources/images/theowner-sm.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment:fixed;
@@ -176,7 +176,6 @@ h2 {
     /* LANDING */
   .land-pad h1 {
     font-size: 3rem;
-
   }
 
   .std-pad {
@@ -196,37 +195,6 @@ h2 {
         font-size: 3rem;
     
       }
-
-    .land-pad {
-        background:
-          /* top, transparent black, faked with gradient */ linear-gradient(
-            rgba(0, 0, 0, 0.3),
-            rgba(0, 0, 0, 0.6)
-          ),
-          /* bottom, image */
-            url("https://b-737.github.io/Houdt-van-Oud/resources/images/herodark-lg.png");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment:fixed;
-        background-position: center -1px;
-      }
-
-      #anno {
-        padding-top: 10vh;
-        padding-bottom: 10vh;
-        background:
-          /* top, transparent black, faked with gradient */ linear-gradient(
-            rgba(0, 0, 0, 0.7),
-            rgba(0, 0, 0, 0.9)
-          ),
-          /* bottom, image */
-            url(/resources/images/theowner-lg.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment:fixed;
-        background-position: center -1px;
-      }
-      
 
   .std-pad {
     padding: 3% 15%;
