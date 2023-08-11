@@ -26,6 +26,18 @@ h1 h2 h3 h4 h5 p {
   opacity: 0.9;
 }
 
+h2 {
+    font-size: 5rem;
+    font-weight: 900;
+    border: 1px red solid
+}
+
+/* NAVBAR */
+
+.nav-item{
+    text-align: right;
+}
+
 /* brand */
 .brand-long {
   font-family: "Libre Baskerville", serif;
@@ -34,7 +46,6 @@ h1 h2 h3 h4 h5 p {
   font-weight: 400;
   font-size: 2.2rem;
   display: flex;
-  /* border: 1px red solid; */
   position: relative;
   top: 10px;
 }
@@ -44,12 +55,24 @@ h1 h2 h3 h4 h5 p {
   font-size: 1rem;
   font-weight: 700;
   align-self: center;
+  position: relative;
+  left: 2px;
   letter-spacing: 0;
 }
 
+/* nav */
+.navbar-nav{
+    font-weight: 100;
+    font-size: 1.3rem;
+}
+
+
+
+
 /* hero section */
 #hero {
-  padding: 5rem 0;
+  padding-top: 14vh;
+  padding-bottom: 14vh
 }
 
 .land-pad {
@@ -59,7 +82,7 @@ h1 h2 h3 h4 h5 p {
       rgba(0, 0, 0, 0.6)
     ),
     /* bottom, image */
-      url("https://b-737.github.io/Houdt-van-Oud/resources/images/herodark.png");
+      url("https://b-737.github.io/Houdt-van-Oud/resources/images/herodark-sm.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment:fixed;
@@ -68,7 +91,7 @@ h1 h2 h3 h4 h5 p {
 
 .land-pad h1 {
   margin-top: 3rem;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 900;
   line-height: 1.5;
 }
@@ -82,7 +105,37 @@ h1 h2 h3 h4 h5 p {
 /* features */
 #features {
   text-align: center;
+  opacity: .9;
 }
+
+/* ANNO 2017 */
+#anno {
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    background:
+      /* top, transparent black, faked with gradient */ linear-gradient(
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.9)
+      ),
+      /* bottom, image */
+        url(/resources/images/theowner-sm.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center -1px;
+  }
+  
+  .anno{
+  }
+
+  .anno-quote{
+    padding-top: 5rem;
+    text-align: end;
+  }
+
+
+
+
 
 /* DESIGN */
 
@@ -90,7 +143,7 @@ h1 h2 h3 h4 h5 p {
   padding: 4rem 0;
 }
 
-/* DESIGN TOP  */
+/* design top part  */
 .design-left {
   text-align: right;
   align-self: center;
@@ -100,7 +153,7 @@ h1 h2 h3 h4 h5 p {
   align-self: center;
 }
 
-/* DESIGN BOTTOM IMAGE */
+/* bottom-image */
 .design-left2 {
 }
 
@@ -117,30 +170,70 @@ h1 h2 h3 h4 h5 p {
   object-fit: cover;
 }
 
-@media (max-width: 768px) {
-  .land-pad h1 {
-    font-size: 2rem;
-  }
+/* IPAD'ISH for devices with a with of AT LEAST 768px wide */
+@media (min-width: 768px) {
 
-  .land-pad {
-    background-position: center center;
+    /* LANDING */
+  .land-pad h1 {
+    font-size: 3rem;
+
   }
 
   .std-pad {
-    padding: 1rem 10%;
+    padding: 2% 8%;
   }
 
   .land-pad {
-    padding: 1rem 10%;
+    padding: 2% 8%;
   }
 }
 
-@media (max-width: 992px) {
+/* LAPTOP'ISH for devices with a width of ATLEAST 992px */
+@media (min-width: 992px) {
+
+    /* LANDING */
+    .land-pad h1 {
+        font-size: 3rem;
+    
+      }
+
+    .land-pad {
+        background:
+          /* top, transparent black, faked with gradient */ linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.6)
+          ),
+          /* bottom, image */
+            url("https://b-737.github.io/Houdt-van-Oud/resources/images/herodark-lg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+        background-position: center -1px;
+      }
+
+      #anno {
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        background:
+          /* top, transparent black, faked with gradient */ linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.9)
+          ),
+          /* bottom, image */
+            url(/resources/images/theowner-lg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+        background-position: center -1px;
+      }
+      
+
   .std-pad {
     padding: 3% 15%;
   }
 
   .land-pad {
-    padding: 1rem 15%;
+    padding: 3% 15%;
   }
+
 }
