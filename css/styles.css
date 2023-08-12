@@ -214,7 +214,7 @@ h1 h2 h3 h4 {
 
 .card-img-overlay{
   text-align: center;
-  background-color: hsl(0, 0%, 0%, .2);
+  background-color: hsl(0, 0%, 0%,);
 }
 
 .jobs .card-title{
@@ -259,7 +259,7 @@ h1 h2 h3 h4 {
 }
 
 .carousel-inner {
-  background-color: hsl(0, 0%, 0%, 0.8);
+  
 }
 
 .carousel-item {
@@ -311,6 +311,13 @@ h1 h2 h3 h4 {
   #hero {
     padding-top: 20%;
     padding-bottom: 5%;
+  }
+
+  /* carousel  */
+  .carousel-inner {
+    max-height: 50vh;
+    background-color: hsla(0, 0%, 98%, 0.8);
+    object-fit: contain;
   }
 }
 
