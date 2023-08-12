@@ -88,8 +88,15 @@ h1 h2 h3 h4 {
   padding-bottom: 10%;
 }
 
+/* contact modal  */
+
+.modal .card-body{
+  background-color: hsla(0, 0%, 100%, 0.8);
+
+}
+
 .modal img{
-  opacity: .9;
+  opacity: .8;
 }
 
 .modal .btn-close{
