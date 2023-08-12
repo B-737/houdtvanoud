@@ -8,20 +8,19 @@ h1 h2 h3 h4 {
 }
 
 .std-pad {
-  padding: 5rem 1rem;
+  padding: 2rem 1rem;
 }
 
 .min-pad {
   padding: 2rem 1rem;
 }
 
-
 /* light areas */
 
 .light-section {
   background-color: #eeeeee;
   font-family: "Montserrat", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .light-section h2 {
@@ -31,7 +30,7 @@ h1 h2 h3 h4 {
 }
 
 .light-section p {
-    opacity: 0.9;
+  opacity: 0.9;
 }
 
 /* dark areas */
@@ -40,7 +39,7 @@ h1 h2 h3 h4 {
   color: #ffffff;
   opacity: 0.9;
   font-family: "Montserrat", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .dark-section h2 {
@@ -85,22 +84,22 @@ h1 h2 h3 h4 {
 
 /* hero section */
 #hero {
-    padding-top: 20%;
-    padding-bottom: 5%;
-  }
+  padding-top: 20%;
+  padding-bottom: 5%;
+}
 
 .land-pad {
   background:
     /* top, transparent black, faked with gradient */ linear-gradient(
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.8)
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.7)
     ),
     /* bottom, image */
       url("https://b-737.github.io/Houdt-van-Oud/resources/images/herodark-sm.png");
   background-size: cover;
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
-  background-position: center -1px;
+  background-position: center center;
 }
 
 .land-pad h1 {
@@ -129,8 +128,8 @@ h1 h2 h3 h4 {
 #anno {
   background:
       /* top, transparent black, faked with gradient */ linear-gradient(
-      rgba(0, 0, 0, 0.8),
-      rgba(0, 0, 0, 0.9)
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.7)
     ),
     /* bottom, image */
       url("https://b-737.github.io/Houdt-van-Oud/resources/images/theowner-sm.png");
@@ -150,14 +149,13 @@ h1 h2 h3 h4 {
 
 /* ontwerp  */
 .ontwerp {
-  align-self: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px red solid;
 }
 
 .ontwerp h2 {
+  padding-top: px;
   margin-right: 1rem;
 }
 
@@ -166,32 +164,24 @@ h1 h2 h3 h4 {
   max-width: 400px;
 }
 
-/* bottom-image */
-#design {
-  background:
-      /* top, transparent black, faked with gradient */ linear-gradient(
-      rgba(255, 255, 255, 0.4),
-      rgba(207, 207, 207, 0.9)
-    ),
-    url("https://b-737.github.io/Houdt-van-Oud/resources/images/sketch.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+/* design  */
+
+.design .row{
+  align-items: center;
+
+}
+.design-left{
+  padding-left: 1rem;
+  padding-right: 1rem;
+
 }
 
-.design-2 {
-}
-.design-right-2 {
-  background-color: hsla(0, 0%, 86%, 0.8);
-  align-self: center;
-  line-height: 1.6;
+.carousel-inner{
+  background-color: hsl(0, 0%, 0%, .8);
 }
 
-.design-image {
-  width: 85vw;
-  max-width: 700px;
-  max-height: 400px;
-  object-fit: cover;
+.carousel-item{
+  opacity: .8;
 }
 
 /* IPAD'ISH for devices with a with of AT LEAST 768px wide */
@@ -208,13 +198,13 @@ h1 h2 h3 h4 {
   .light-section h2 {
     font-size: 2rem;
   }
-  
+
   .light-section p {
-      opacity: 0.9;
+    opacity: 0.9;
   }
-  
+
   /* dark areas */
-  
+
   .dark-section h2 {
     font-size: 1.5rem;
   }
