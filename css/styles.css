@@ -37,7 +37,7 @@ h1 h2 h3 h4 {
 
 .dark-section {
   color: #ffffff;
-  opacity: 0.9;
+  opacity: 0.95;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
@@ -84,8 +84,8 @@ h1 h2 h3 h4 {
 
 /* hero section */
 #hero {
-  padding-top: 20%;
-  padding-bottom: 5%;
+  padding-top: 25%;
+  padding-bottom: 10%;
 }
 
 .land-pad {
@@ -110,7 +110,7 @@ h1 h2 h3 h4 {
 
 .land-pad .btn {
   margin-right: 1rem;
-  margin-top: 1rem;
+  /* margin-top: .6rem; */
   opacity: 0.9;
 }
 
@@ -167,15 +167,19 @@ h1 h2 h3 h4 {
 #anno {
   background:
       /* top, transparent black, faked with gradient */ linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.7)
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
     ),
     /* bottom, image */
       url("https://b-737.github.io/Houdt-van-Oud/resources/images/schilder-sm.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center 25%;
+  background-position: center center;
+}
+
+.anno {
+  padding-top: 5rem;
 }
 .anno-quote {
   padding-top: 5rem;
@@ -247,7 +251,7 @@ h1 h2 h3 h4 {
   /* dark areas */
 
   .dark-section h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   /* LANDING */
@@ -274,6 +278,20 @@ h1 h2 h3 h4 {
 
   .min-pad {
     padding: 2% 15%;
+  }
+
+  .light-section h2 {
+    font-size: 3rem;
+  }
+
+  .light-section p {
+    opacity: 0.9;
+  }
+
+  /* dark areas */
+
+  .dark-section h2 {
+    font-size: 3rem;
   }
 
   /* LANDING */
