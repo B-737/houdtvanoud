@@ -1,45 +1,61 @@
-h1 h2 h3 h4 h5 p {
-  font-family: "Libre Baskerville", sans-serif;
+h1 h2 h3 h4 {
+  font-family: "Montserrat Black", sans-serif;
+  font-weight: 700;
 }
 
 .land-pad {
-  padding: 1rem;
+  padding: 0rem 1rem;
 }
 
 .std-pad {
-  padding: 1rem;
+  padding: 5rem 1rem;
 }
 
 .min-pad {
-  padding: 0.2rem;
+  padding: 2rem 1rem;
 }
 
-#null-pad {
-  padding: 0;
-}
+/* light areas */
 
 .light-section {
+  background-color: #eeeeee;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
 }
+
+.light-section h2 {
+  color: hsla(0, 0%, 0%, 0.8);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.light-section p {
+    opacity: 0.9;
+}
+
+/* dark areas */
 
 .dark-section {
   color: #ffffff;
   opacity: 0.9;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
 }
 
-h2 {
-    font-size: 5rem;
-    font-weight: 900;
-    border: 1px red solid
+.dark-section h2 {
+  color: hsla(0, 0%, 100%, 0.8);
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 /* NAVBAR */
 
-.nav-item{
-    text-align: right;
+.nav-item {
+  text-align: right;
 }
 
 /* brand */
-.brand-long {
+#brand-font {
   font-family: "Libre Baskerville", serif;
   letter-spacing: -4px;
   text-transform: uppercase;
@@ -61,36 +77,32 @@ h2 {
 }
 
 /* nav */
-.navbar-nav{
-    font-weight: 100;
-    font-size: 1.3rem;
+.navbar-nav {
+  font-weight: 100;
+  font-size: 1.3rem;
 }
-
-
-
 
 /* hero section */
 #hero {
-  padding-top: 14vh;
-  padding-bottom: 14vh
+  padding-top: 30vh;
+  padding-bottom: 10vh;
 }
 
 .land-pad {
   background:
     /* top, transparent black, faked with gradient */ linear-gradient(
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.6)
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.8)
     ),
     /* bottom, image */
       url("https://b-737.github.io/Houdt-van-Oud/resources/images/herodark-sm.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment:fixed;
+  background-attachment: fixed;
   background-position: center -1px;
 }
 
 .land-pad h1 {
-  margin-top: 3rem;
   font-size: 2rem;
   font-weight: 900;
   line-height: 1.5;
@@ -105,58 +117,69 @@ h2 {
 /* features */
 #features {
   text-align: center;
-  opacity: .9;
+}
+
+.feature-icon {
+  font-size: 1.4rem;
+  margin: 0.5rem;
 }
 
 /* ANNO 2017 */
 #anno {
-    padding-top: 15vh;
-    padding-bottom: 15vh;
-    background:
+  background:
       /* top, transparent black, faked with gradient */ linear-gradient(
-        rgba(0, 0, 0, 0.8),
-        rgba(0, 0, 0, 0.9)
-      ),
-      /* bottom, image */
-        url("https://b-737.github.io/Houdt-van-Oud/resources/images/theowner-sm.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment:fixed;
-    background-position: center -1px;
-  }
-  
-  .anno{
-  }
-
-  .anno-quote{
-    padding-top: 5rem;
-    text-align: end;
-  }
-
-
-
-
-
-/* DESIGN */
-
-.design {
-  padding: 4rem 0;
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.9)
+    ),
+    /* bottom, image */
+      url("https://b-737.github.io/Houdt-van-Oud/resources/images/theowner-sm.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center -1px;
 }
 
-/* design top part  */
-.design-left {
-  text-align: right;
-  align-self: center;
+.anno {
 }
 
-.design-right {
+.anno-quote {
+  padding-top: 5rem;
+  text-align: end;
+}
+
+/* ontwerp  */
+.ontwerp {
   align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px red solid;
+}
+
+.ontwerp h2 {
+  margin-right: 1rem;
+}
+
+.ontwerp-left img {
+  width: 40vw;
+  max-width: 400px;
 }
 
 /* bottom-image */
-.design-left2 {
+#design {
+  background:
+      /* top, transparent black, faked with gradient */ linear-gradient(
+      rgba(255, 255, 255, 0.4),
+      rgba(207, 207, 207, 0.9)
+    ),
+    url("https://b-737.github.io/Houdt-van-Oud/resources/images/sketch.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
+.design-2 {
+}
 .design-right-2 {
   background-color: hsla(0, 0%, 86%, 0.8);
   align-self: center;
@@ -172,36 +195,41 @@ h2 {
 
 /* IPAD'ISH for devices with a with of AT LEAST 768px wide */
 @media (min-width: 768px) {
+  /* universal */
+  .std-pad {
+    padding: 10vh 8%;
+  }
 
-    /* LANDING */
+  .min-pad {
+  }
+
+  /* LANDING */
   .land-pad h1 {
     font-size: 3rem;
   }
 
-  .std-pad {
-    padding: 2% 8%;
-  }
-
   .land-pad {
-    padding: 2% 8%;
+    padding: 1% 8%;
   }
 }
 
 /* LAPTOP'ISH for devices with a width of ATLEAST 992px */
 @media (min-width: 992px) {
-
-    /* LANDING */
-    .land-pad h1 {
-        font-size: 3rem;
-    
-      }
-
+  /* universal */
   .std-pad {
+    padding: 5% 15%;
+  }
+
+  .min-pad {
     padding: 3% 15%;
+  }
+
+  /* LANDING */
+  .land-pad h1 {
+    font-size: 3rem;
   }
 
   .land-pad {
-    padding: 3% 15%;
+    padding: 1% 15%;
   }
-
 }
