@@ -117,8 +117,8 @@ h1 h2 h3 h4 {
       url("https://b-737.github.io/Houdt-van-Oud/resources/images/herodark-sm.png");
   background-size: cover;
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
-  background-position: center center;
+  background-attachment: fixed;
+  background-position: center top -1px;
 }
 
 .land-pad h1 {
@@ -194,7 +194,7 @@ h1 h2 h3 h4 {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center center;
+  background-position: center top 1px;
 }
 
 .anno {
@@ -203,6 +203,32 @@ h1 h2 h3 h4 {
 .anno-quote {
   padding-top: 5rem;
   text-align: end;
+}
+
+/* jobs */
+
+#jobs{
+  
+}
+
+
+.card-img-overlay{
+  text-align: center;
+  background-color: hsl(0, 0%, 0%, .2);
+}
+
+.jobs .card-title{
+  font-size: 2rem;
+  font-weight: 800;
+  color: #eeeeee;
+  text-transform: uppercase;
+}
+
+.job-icon{
+  position: absolute;
+  bottom: 20px;
+  left: 8px;
+  opacity: .7;
 }
 
 /* ontwerp  */
