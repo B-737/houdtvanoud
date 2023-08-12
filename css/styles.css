@@ -8,11 +8,11 @@ h1 h2 h3 h4 {
 }
 
 .std-pad {
-  padding: 2rem 1rem;
+  padding: 4rem 1rem;
 }
 
 .min-pad {
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
 }
 
 /* light areas */
@@ -91,8 +91,8 @@ h1 h2 h3 h4 {
 .land-pad {
   background:
     /* top, transparent black, faked with gradient */ linear-gradient(
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.7)
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.2)
     ),
     /* bottom, image */
       url("https://b-737.github.io/Houdt-van-Oud/resources/images/herodark-sm.png");
@@ -124,8 +124,8 @@ h1 h2 h3 h4 {
   margin: 0.5rem;
 }
 
-/* ANNO 2017 */
-#anno {
+/* BRIEF */
+#brief {
   background:
       /* top, transparent black, faked with gradient */ linear-gradient(
       rgba(0, 0, 0, 0.6),
@@ -139,9 +139,44 @@ h1 h2 h3 h4 {
   background-position: center 25%;
 }
 
-.anno {
+.counter {
+  padding-top: 4rem;
+  text-align: center;
+  border-radius: 5px;
 }
 
+.count-title {
+  font-size: 5rem;
+  font-weight: normal;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.count-text {
+  font-weight: 300;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.counter-icon {
+  opacity: 0.9;
+}
+
+/* ANNO 2017 */
+#anno {
+  background:
+      /* top, transparent black, faked with gradient */ linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.7)
+    ),
+    /* bottom, image */
+      url("https://b-737.github.io/Houdt-van-Oud/resources/images/schilder-sm.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center 25%;
+}
 .anno-quote {
   padding-top: 5rem;
   text-align: end;
@@ -155,7 +190,7 @@ h1 h2 h3 h4 {
 }
 
 .ontwerp h2 {
-  padding-top: px;
+  padding-top: 7px;
   margin-right: 1rem;
 }
 
@@ -166,22 +201,28 @@ h1 h2 h3 h4 {
 
 /* design  */
 
-.design .row{
+.design .row {
   align-items: center;
-
 }
-.design-left{
+.design-left {
   padding-left: 1rem;
   padding-right: 1rem;
-
 }
 
-.carousel-inner{
-  background-color: hsl(0, 0%, 0%, .8);
+.carousel-inner {
+  background-color: hsl(0, 0%, 0%, 0.8);
 }
 
-.carousel-item{
-  opacity: .8;
+.carousel-item {
+  opacity: 0.8;
+}
+
+.carousel-control-next-icon {
+  transform: scale(200%);
+}
+
+.carousel-control-prev-icon {
+  transform: scale(200%);
 }
 
 /* IPAD'ISH for devices with a with of AT LEAST 768px wide */
