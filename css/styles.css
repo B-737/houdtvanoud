@@ -15,6 +15,7 @@ h1 h2 h3 h4 {
   padding: 2rem 1rem;
 }
 
+
 /* light areas */
 
 .light-section {
@@ -25,7 +26,7 @@ h1 h2 h3 h4 {
 
 .light-section h2 {
   color: hsla(0, 0%, 0%, 0.8);
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
@@ -44,7 +45,7 @@ h1 h2 h3 h4 {
 
 .dark-section h2 {
   color: hsla(0, 0%, 100%, 0.8);
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
@@ -84,9 +85,9 @@ h1 h2 h3 h4 {
 
 /* hero section */
 #hero {
-  padding-top: 30vh;
-  padding-bottom: 10vh;
-}
+    padding-top: 20%;
+    padding-bottom: 5%;
+  }
 
 .land-pad {
   background:
@@ -98,7 +99,7 @@ h1 h2 h3 h4 {
       url("https://b-737.github.io/Houdt-van-Oud/resources/images/herodark-sm.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-position: center -1px;
 }
 
@@ -136,7 +137,7 @@ h1 h2 h3 h4 {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center -1px;
+  background-position: center 25%;
 }
 
 .anno {
@@ -197,10 +198,25 @@ h1 h2 h3 h4 {
 @media (min-width: 768px) {
   /* universal */
   .std-pad {
-    padding: 10vh 8%;
+    padding: 5vh 8%;
   }
 
   .min-pad {
+    padding: 3% 8%;
+  }
+
+  .light-section h2 {
+    font-size: 2rem;
+  }
+  
+  .light-section p {
+      opacity: 0.9;
+  }
+  
+  /* dark areas */
+  
+  .dark-section h2 {
+    font-size: 1.5rem;
   }
 
   /* LANDING */
@@ -210,6 +226,11 @@ h1 h2 h3 h4 {
 
   .land-pad {
     padding: 1% 8%;
+  }
+
+  #hero {
+    padding-top: 20%;
+    padding-bottom: 5%;
   }
 }
 
@@ -221,7 +242,7 @@ h1 h2 h3 h4 {
   }
 
   .min-pad {
-    padding: 3% 15%;
+    padding: 2% 15%;
   }
 
   /* LANDING */
@@ -231,5 +252,10 @@ h1 h2 h3 h4 {
 
   .land-pad {
     padding: 1% 15%;
+  }
+
+  #hero {
+    padding-top: 20%;
+    padding-bottom: 5%;
   }
 }
