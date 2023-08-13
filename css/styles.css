@@ -8,11 +8,11 @@ h1 h2 h3 h4 {
 }
 
 .std-pad {
-  padding: 4rem 1rem;
+  padding: 0rem 1rem;
 }
 
 .min-pad {
-  padding: 1rem 1rem;
+  padding: 0rem 1rem;
 }
 
 /* light areas */
@@ -84,28 +84,24 @@ h1 h2 h3 h4 {
 
 /* hero section */
 #hero {
-  padding-top: 25%;
-  padding-bottom: 10%;
 }
 
 /* contact modal  */
 
-.modal .card-body{
+.modal .card-body {
   background-color: hsla(0, 0%, 100%, 0.8);
-
 }
 
-.modal img{
-  opacity: .8;
+.modal img {
+  opacity: 0.8;
 }
 
-.modal .btn-close{
+.modal .btn-close {
   float: right;
   right: 1rem;
   position: absolute;
   color: white;
 }
-
 
 .land-pad {
   background:
@@ -143,23 +139,7 @@ h1 h2 h3 h4 {
   margin: 0.5rem;
 }
 
-/* BRIEF */
-#brief {
-  background:
-      /* top, transparent black, faked with gradient */ linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.7)
-    ),
-    /* bottom, image */
-      url("https://b-737.github.io/Houdt-van-Oud/resources/images/theowner-sm.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center 25%;
-}
-
 .counter {
-  padding-top: 4rem;
   text-align: center;
   border-radius: 5px;
 }
@@ -190,45 +170,83 @@ h1 h2 h3 h4 {
       rgba(255, 255, 255, 0.6)
     ),
     /* bottom, image */
-      url("https://b-737.github.io/Houdt-van-Oud/resources/images/schilder-sm.png");
+      url("https://b-737.github.io/Houdt-van-Oud/resources/images/theowner-sm.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center top 1px;
 }
 
-.anno {
-  padding-top: 5rem;
-}
 .anno-quote {
-  padding-top: 5rem;
   text-align: end;
 }
 
-/* jobs */
+/* work*/
 
-#jobs{
-  
+.work{
+  background-color: #eeeeee;
+}
+
+.job {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+}
+
+.job-card{
+  position:relative;
+  z-index: 1;
 }
 
 
-.card-img-overlay{
-  text-align: center;
-  background-color: hsl(0, 0%, 0%,);
-}
-
-.jobs .card-title{
-  font-size: 2rem;
-  font-weight: 800;
+.job h2 {
+  font-size: 2.5rem;
+  font-weight: 900;
   color: #eeeeee;
-  text-transform: uppercase;
 }
 
-.job-icon{
-  position: absolute;
-  bottom: 20px;
-  left: 8px;
-  opacity: .7;
+.card-text {
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+}
+
+/* background images for jobs  */
+
+.job-hout {
+  background:
+  /* top, transparent black, faked with gradient */ linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    /* bottom, image */ url("https://b-737.github.io/Houdt-van-Oud/resources/images/job-hout.jpg");
+}
+
+.job-electra {
+  background:
+  /* top, transparent black, faked with gradient */ linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.4)
+    ),
+    /* bottom, image */ url("https://b-737.github.io/Houdt-van-Oud/resources/images/Electra.jpg);
+}
+
+.job-verf {
+  background:
+  /* top, transparent black, faked with gradient */ linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    /* bottom, image */ url("https://b-737.github.io/Houdt-van-Oud/resources/images/schilder-sm.png);
+}
+
+
+.job{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* ontwerp  */
@@ -253,13 +271,13 @@ h1 h2 h3 h4 {
 .design .row {
   align-items: center;
 }
+
 .design-left {
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
 .carousel-inner {
-  
 }
 
 .carousel-item {
@@ -274,15 +292,24 @@ h1 h2 h3 h4 {
   transform: scale(200%);
 }
 
+/* footer */
+#to-top {
+  float: right;
+}
+
 /* IPAD'ISH for devices with a with of AT LEAST 768px wide */
 @media (min-width: 768px) {
   /* universal */
   .std-pad {
-    padding: 5vh 8%;
+    padding: 0vh 8%;
   }
 
   .min-pad {
-    padding: 3% 8%;
+    padding: 0% 8%;
+  }
+
+  .work-pad{
+    padding: 0% 8%;
   }
 
   .light-section h2 {
@@ -305,8 +332,10 @@ h1 h2 h3 h4 {
   }
 
   .land-pad {
-    padding: 1% 8%;
+    padding: 0% 8%;
   }
+
+  
 
   #hero {
     padding-top: 20%;
@@ -315,9 +344,10 @@ h1 h2 h3 h4 {
 
   /* carousel  */
   .carousel-inner {
-    max-height: 50vh;
+    max-height: 400px;
     background-color: hsla(0, 0%, 98%, 0.8);
     object-fit: contain;
+    object-position: -50% 40%;
   }
 }
 
@@ -330,6 +360,10 @@ h1 h2 h3 h4 {
 
   .min-pad {
     padding: 2% 15%;
+  }
+
+  .work-pad{
+    padding: 0% 15%;
   }
 
   .light-section h2 {
@@ -358,5 +392,13 @@ h1 h2 h3 h4 {
   #hero {
     padding-top: 20%;
     padding-bottom: 5%;
+  }
+
+  /* carousel  */
+  .carousel-inner {
+    max-height: 400px;
+    background-color: hsla(0, 0%, 98%, 0.8);
+    display: flex;
+    align-items: center;
   }
 }
