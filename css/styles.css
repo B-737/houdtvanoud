@@ -184,7 +184,7 @@ h1 h2 h3 h4 {
     ),
     /* bottom, image */
       url("https://b-737.github.io/Houdt-van-Oud/resources/images/theowner-sm.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center top 1px;
