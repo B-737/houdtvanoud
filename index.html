@@ -375,19 +375,21 @@
       <h2 class="std-pad">
         Expert in : <i class="fas fa-share fa-rotate-90"></i>
       </h2>
-      <div class="jobs " >
+      <div class="jobs">
         <div
           id="collapseExample"
-          class="collapse show job job-hout text-center"
+          class="collapse show job job-hout text-center kill-btn tool-tip"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#collapseExample"
           aria-expanded="false"
           aria-controls="collapseExample"
-          data-toggle="tooltip" data-placement="top" title="Tooltip on top"
-          data-animation="true"
+          data-toggle="tooltip"
+          title="Hooray!"
         >
-          <h2>HOUT</h2>
+          <div>
+            <h2>HOUT</h2>
+          </div>
         </div>
 
         <div class="collapse job-hout" id="collapseExample">
@@ -409,6 +411,12 @@
             </div>
           </div>
         </div>
+
+        <script>
+          $('.kill-btn').tooltip({placement: 'top',trigger: 'manual'}).tooltip('show');
+
+          $('.kill-btn').on('click',function(){$(this).tooltip('destroy');});
+        </script>
 
         <div
           id="collapseExample2"
@@ -663,3 +671,16 @@
     </footer>
   </body>
 </html>
+<script>
+  $(".tool_tip")
+    .attr("data-toggle", "tooltip")
+    .attr("data-placement", "top")
+    .tooltip({
+      trigger: "manual",
+    })
+    .tooltip("show");
+
+  $(".kill-btn").click(function () {
+    $("[data-toggle='tooltip']").tooltip("destroy");
+  });
+</script>

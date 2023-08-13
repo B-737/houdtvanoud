@@ -184,7 +184,7 @@ h1 h2 h3 h4 {
     ),
     /* bottom, image */
       url("https://b-737.github.io/Houdt-van-Oud/resources/images/theowner-sm.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -213,6 +213,7 @@ h1 h2 h3 h4 {
   align-self: center;
   align-content: center;
   align-items: center;
+  transition: all 0.3s;
 }
 
 .job-card{
