@@ -25,7 +25,7 @@ h1 h2 h3 h4 {
 
 .light-section h2 {
   color: hsla(0, 0%, 0%, 0.8);
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 
@@ -44,7 +44,7 @@ h1 h2 h3 h4 {
 
 .dark-section h2 {
   color: hsla(0, 0%, 100%, 0.8);
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 
@@ -178,9 +178,9 @@ h1 h2 h3 h4 {
 /* ANNO 2017 */
 #anno {
   background:
-      /* top, transparent black, faked with gradient */ linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
+  /* top, transparent black, faked with gradient */ linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.7)
     ),
     /* bottom, image */
       url("https://b-737.github.io/Houdt-van-Oud/resources/images/theowner-sm.png");
@@ -241,6 +241,7 @@ h1 h2 h3 h4 {
       rgba(0, 0, 0, 0.2)
     ),
     /* bottom, image */ url("https://b-737.github.io/Houdt-van-Oud/resources/images/job-hout.jpg");
+    border-radius: 20px 5px 0 0;
 }
 
 .job-electra {
@@ -256,7 +257,7 @@ h1 h2 h3 h4 {
   background:
   /* top, transparent black, faked with gradient */ linear-gradient(
       rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2)
+      rgba(0, 0, 0, 0.3)
     ),
     /* bottom, image */ url("https://b-737.github.io/Houdt-van-Oud/resources/images/schilder-sm.png");
 }
@@ -265,9 +266,10 @@ h1 h2 h3 h4 {
   background:
   /* top, transparent black, faked with gradient */ linear-gradient(
       rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2)
+      rgba(0, 0, 0, 0.4)
     ),
     /* bottom, image */ url("https://b-737.github.io/Houdt-van-Oud/resources/images/job-goot.jpg");
+    border-radius: 0 0 20px 5px;
 }
 
 
