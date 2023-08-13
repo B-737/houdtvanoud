@@ -179,8 +179,8 @@ h1 h2 h3 h4 {
 #anno {
   background:
       /* top, transparent black, faked with gradient */ linear-gradient(
-      rgba(255, 255, 255, 0.6),
-      rgba(255, 255, 255, 0.6)
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
     ),
     /* bottom, image */
       url("https://b-737.github.io/Houdt-van-Oud/resources/images/theowner-sm.png");
@@ -192,6 +192,12 @@ h1 h2 h3 h4 {
 
 .anno-quote {
   text-align: end;
+}
+
+.anno .list-group-item{
+  color: #ffffff;
+  opacity: 0.95;
+  border: hsl(0, 0%, 100%, .0) solid .4px;
 }
 
 /* work*/
@@ -253,6 +259,15 @@ h1 h2 h3 h4 {
       rgba(0, 0, 0, 0.2)
     ),
     /* bottom, image */ url("https://b-737.github.io/Houdt-van-Oud/resources/images/schilder-sm.png");
+}
+
+.job-goot {
+  background:
+  /* top, transparent black, faked with gradient */ linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    /* bottom, image */ url("https://b-737.github.io/Houdt-van-Oud/resources/images/job-goot.jpg");
 }
 
 
