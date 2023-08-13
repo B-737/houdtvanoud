@@ -187,7 +187,7 @@ h1 h2 h3 h4 {
   background-size: contain;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center top 1px;
+  background-position: center center;
 }
 
 .anno-quote {
