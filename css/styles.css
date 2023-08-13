@@ -207,7 +207,7 @@ h1 h2 h3 h4 {
 }
 
 .job {
-  height: 100px;
+  height: 120px;
   display: flex;
   justify-content: center;
   align-self: center;
