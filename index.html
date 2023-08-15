@@ -371,11 +371,13 @@
       </div>
     </section>
 
+
+
     <section id="work" class="work-pad work light-section py-3">
       <h2 class="std-pad">
         Expert in : <i class="fas fa-share fa-rotate-90"></i>
       </h2>
-      <div class="jobs">
+      <div id="myGroup" class="jobs accordion-group">
         <div
           id="collapseExample"
           class="collapse job job-hout text-center  position-relative"
@@ -384,6 +386,8 @@
           data-bs-target="#collapseExample"
           aria-expanded="false"
           aria-controls="collapseExample"
+          data-parent="#myGroup"
+          
 
         >
           <div class="">
@@ -402,6 +406,7 @@
             data-bs-target="#collapseExample"
             aria-expanded="false"
             aria-controls="collapseExample"
+            data-bs-parent="#myGroup"
           >
             <div class="card-text dark-section col-md-8">
               <h2>Houtbewerking</h2>
@@ -424,6 +429,7 @@
           data-bs-target="#collapseExample2"
           aria-expanded="false"
           aria-controls="collapseExample2"
+          data-parent="#myGroup"
         >
           <h2>ELECTRA</h2>
           <button class="btn btn-xl btn-outline-light position-absolute top-50 end-0 translate-middle-y border-0" ><i class="fa-solid fa-2xl fa-circle-plus"></i></button>
@@ -437,6 +443,7 @@
             data-bs-target="#collapseExample2"
             aria-expanded="false"
             aria-controls="collapseExample2"
+            data-bs-parent="#myGroup"
           >
             <div class="card-text dark-section col-md-6 ">
               <h2>Electrische montage</h2>
@@ -473,6 +480,7 @@
             data-bs-target="#collapseExample3"
             aria-expanded="false"
             aria-controls="collapseExample3"
+            data-bs-parent="#myGroup"
           >
             <div class="card-text dark-section col-md-6 align-self-end">
               <h2>Schilderen</h2>
@@ -507,6 +515,7 @@
             data-bs-target="#collapseExample4"
             aria-expanded="false"
             aria-controls="collapseExample4"
+            data-bs-parent="#myGroup"
           >
             <div class="card-text dark-section col-md-6">
               <h2>Goot, zink en dakwerk</h2>
@@ -554,7 +563,23 @@
           </p>
         </div>
       </div>
+
+ 
     </section>
+
+    <script>
+      jQuery('job').click( function(e) {
+    jQuery('.collapse').collapse('hide');
+});
+
+    </script>
+
+    <script>
+      var $myGroup = $('#myGroup');
+      $myGroup.on('show.bs.collapse','.collapse', function() {
+          $myGroup.find('.collapse.in').collapse('hide');
+      });
+            </script>
 
     <section id="ontwerp" class="std-pad light-section py-5">
       <div class="row">
@@ -677,16 +702,3 @@
     </footer>
   </body>
 </html>
-<script>
-  $(".tool_tip")
-    .attr("data-toggle", "tooltip")
-    .attr("data-placement", "top")
-    .tooltip({
-      trigger: "manual",
-    })
-    .tooltip("show");
-
-  $(".kill-btn").click(function () {
-    $("[data-toggle='tooltip']").tooltip("destroy");
-  });
-</script>
