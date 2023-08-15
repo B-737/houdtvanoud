@@ -23,7 +23,7 @@ h1 h2 h3 h4 {
   font-weight: 400;
 }
 
-.light-section h2 {
+.light-section h2, h3, h4, h5 {
   color: hsla(0, 0%, 0%, 0.8);
   font-size: 2rem;
   font-weight: 700;
@@ -169,10 +169,10 @@ h1 h2 h3 h4 {
 
 .year-counter{
   position:absolute;
-  font-size: 8rem;
+  font-size: 10rem;
   font-weight: 900;
   color: hsl(0, 0%, 0%, .07);
-  line-height: .7;
+  line-height: .6;
 }
 
 /* ANNO 2017 */
