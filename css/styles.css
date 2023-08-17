@@ -309,6 +309,7 @@ h5 {
 }
 
 .carousel-img {
+
   width: 100%;
   max-height: 30rem;
   object-position: center center;
@@ -345,18 +346,13 @@ h5 {
 /* ontwerp  */
 
 .design-badge{
-  left: -1rem;
-  top: -1rem;
+  left: -2rem;
+  top: -2rem;
   opacity: .7;
-  z-index: 1;
+
   width: 13rem;
 
 /* opacity: .6; */
-}
-
-.design-text{
-  position: relative;
-  z-index: 2;
 }
 
 #design-img{
