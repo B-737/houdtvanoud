@@ -120,9 +120,11 @@
           <h1>Doen waar u geen kennis, zin of tijd voor heeft.</h1>
           <p>Kijk hoe wij het aanpakken of neem direct contact op.</p>
 
-          <button class="btn btn-light btn btn-left">
-            <i class="fa-solid fa-clipboard"></i> Zie projecten
-        </button>
+          <a href="/projecten.html"
+            ><button class="btn btn-light btn btn-left">
+              <i class="fa-solid fa-clipboard"></i> Zie projecten
+            </button>
+          </a>
           <!-- Button trigger modal -->
 
           <button
@@ -459,36 +461,14 @@
     </section>
 
     <section id="latest" class="light-section">
-      <h2 class="std-pad text-center py-3">Recent opgelevered</h2>
 
       <div id="carouselExampleDark" class="carousel carousel-dark slide">
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-
         <div class="carousel-inner">
+          <!-- EERSTE CAROUSEL DIA  -->
           <div class="carousel-item active" data-bs-interval="4000">
             <div class="row justify-content-end">
-              <div class="col-md-5 align-self-center px-4">
+              <div class="col-md-5 align-self-center px-4 position-relative">
+                <span class="badge text-bg-success">Recent opgeleverd</span>
                 <h2>Operatie zoldertrap</h2>
                 <p>
                   Grote zolder-ruimte bijna in gebruik vanwege onhandige Vliezo
@@ -498,9 +478,33 @@
                   Na plaatsing nieuwe trap is het kantoor boven volledig in
                   gebruik.
                 </p>
-                <button type="button" href="./projecten.html
-                " class="btn btn-primary mb-3">
-                  Meer projecten
+
+                <button
+                  type="button"
+                  href="./projecten.html"
+                  class="btn btn-outline-secondary recent-btn float-start "
+                  data-bs-target="#carouselExampleDark"
+                  data-bs-slide="prev"
+                >
+                  <i class="fa-solid fa-chevron-left"></i>
+                </button>
+
+                <button
+                  type="button"
+                  href="./projecten.html"
+                  class="btn btn-primary recent-btn mx-3"
+                >
+                  Meer Projecten
+                </button>
+
+                <button
+                  type="button"
+                  href="./projecten.html"
+                  class="btn btn-outline-secondary recent-btn float-end"
+                  data-bs-target="#carouselExampleDark"
+                  data-bs-slide="next"
+                >
+                  <i class="fa-solid fa-chevron-right"></i>
                 </button>
               </div>
 
@@ -524,19 +528,47 @@
               </div>
             </div>
           </div>
+          <!-- TWEEDE CAROUSEL DIA  -->
           <div class="carousel-item" data-bs-interval="2000">
             <div class="row justify-content-end">
-              <div class="col-md-5 align-self-center px-4">
-                <h2>Kozijn kast</h2>
+              <div class="col-md-5 align-self-center px-4 position-relative">
+                <h2>Operatie zoldertrap</h2>
                 <p>
                   Geen lost-staande kast, maar compleet ingebouwd met het
                   kozijn.
                 </p>
 
                 <p>
-                  Router en electra zijn keurig beschikbaar achter deurtje aan onderzijde. 
+                  Router en electra zijn keurig beschikbaar achter deurtje aan
+                  onderzijde.
                 </p>
-                <button type="button" href="./projecten.html" class="btn btn-primary mb-3">Meer Projecten
+
+                <button
+                  type="button"
+                  href="./projecten.html"
+                  class="btn btn-outline-secondary recent-btn float-start"
+                  data-bs-target="#carouselExampleDark"
+                  data-bs-slide="prev"
+                >
+                  <i class="fa-solid fa-chevron-left"></i>
+                </button>
+
+                <button
+                  type="button"
+                  href="./projecten.html"
+                  class="btn btn-primary recent-btn mx-3"
+                >
+                  Meer Projecten
+                </button>
+
+                <button
+                  type="button"
+                  href="./projecten.html"
+                  class="btn btn-outline-secondary recent-btn float-end"
+                  data-bs-target="#carouselExampleDark"
+                  data-bs-slide="next"
+                >
+                  <i class="fa-solid fa-chevron-right"></i>
                 </button>
               </div>
 
@@ -560,35 +592,95 @@
               </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>
-                Some representative placeholder content for the third slide.
-              </p>
+          <!-- DERDE CAROUSEL DIA  -->
+          <div class="carousel-item" data-bs-interval="2000">
+            <div class="row justify-content-end">
+              <div class="col-md-5 align-self-center px-4 position-relative">
+                <h2>
+                  Operatie zoldertrap <sup><p>*recent opgeleverd</p></sup>
+                </h2>
+                <p>
+                  Geen lost-staande kast, maar compleet ingebouwd met het
+                  kozijn.
+                </p>
+
+                <p>
+                  Router en electra zijn keurig beschikbaar achter deurtje aan
+                  onderzijde.
+                </p>
+                <button
+                  type="button"
+                  href="./projecten.html"
+                  class="btn btn-outline-secondary recent-btn float-start"
+                  data-bs-target="#carouselExampleDark"
+                  data-bs-slide="prev"
+                >
+                  <i class="fa-solid fa-chevron-left"></i>
+                </button>
+
+                <button
+                  type="button"
+                  href="./projecten.html"
+                  class="btn btn-primary recent-btn mx-3"
+                >
+                  Meer Projecten
+                </button>
+
+                <button
+                  type="button"
+                  href="./projecten.html"
+                  class="btn btn-outline-secondary recent-btn float-end"
+                  data-bs-target="#carouselExampleDark"
+                  data-bs-slide="next"
+                >
+                  <i class="fa-solid fa-chevron-right"></i>
+                </button>
+              </div>
+
+              <div class="col-md-6 d-flex justify-content-center">
+                <div class="parent">
+                  <img
+                    src="./resources/images/kast-voor.jpg"
+                    class="carousel-img"
+                    alt=""
+                  />
+                  <h4 class="carousel-img-text">VOOR</h4>
+                </div>
+                <div class="parent">
+                  <img
+                    src="./resources/images/kast-af.jpg"
+                    class="carousel-img"
+                    alt=""
+                  />
+                  <h4 class="carousel-img-text">NA</h4>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
       </div>
     </section>
 

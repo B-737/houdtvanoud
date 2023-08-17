@@ -31,7 +31,7 @@ h1 h2 h3 h4 {
 h3,
 h4,
 h5 {
-  color: hsla(0, 0%, 0%, 0.8);
+  color: #1e1e1e;
   font-size: 2rem;
   font-weight: 700;
 }
@@ -300,6 +300,10 @@ h5 {
 #latest .card {
   max-height: 25rem;
 }
+#latest .carousel-inner h2, 
+#latest .carousel-inner p{
+  color: rgb(0, 0, 0);
+}
 .parent {
   position: relative;
 }
@@ -318,6 +322,26 @@ h5 {
   font-weight: 800;
   z-index: 1;
 }
+
+.carousel-inner .btn {
+  position: relative;
+  z-index: 1080;
+}
+
+
+.carousel-selector{
+  opacity: .5;
+}
+
+.carousel-sup{
+  padding-bottom: -2rem;
+  padding-bottom: -2rem;
+}
+
+.recent-btn{
+  margin-bottom: 1rem;
+}
+
 
 /* ontwerp  */
 .ontwerp {
@@ -418,6 +442,13 @@ h5 {
     object-fit: contain;
     object-position: -50% 40%;
   }
+
+  /* recent  */
+  .carousel-indicators{
+    width: 24vw;
+    height: 10px;
+  }
+
 }
 
 /* LAPTOP'ISH for devices with a width of ATLEAST 992px */
@@ -475,4 +506,6 @@ h5 {
     display: flex;
     align-items: center;
   }
+
+
 }
