@@ -343,20 +343,25 @@ h5 {
 
 
 /* ontwerp  */
-.ontwerp {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.design-badge{
+  right: 10%;
+  top: -.5rem;
+  opacity: .8;
+  z-index: 1;
+  height: 1.5rem;
+  width: 13rem;
+
+/* opacity: .6; */
 }
 
-.ontwerp h2 {
-  padding-top: 7px;
-  margin-right: 1rem;
+.design-text{
+  position: relative;
+  z-index: 2;
 }
 
-.ontwerp-left img {
-  width: 37vw;
-  max-width: 400px;
+#design-img{
+height: 1.2rem;
 }
 
 /* design  */
