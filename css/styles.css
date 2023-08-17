@@ -11,6 +11,10 @@ h1 h2 h3 h4 {
   padding: 0rem 1rem;
 }
 
+.left-std-pad{
+  padding-left: 1rem;
+}
+
 .min-pad {
   padding: 0rem 1rem;
 }
@@ -87,6 +91,10 @@ h1 h2 h3 h4 {
   padding-top: 8rem;
   padding-bottom: 5rem;
 
+}
+
+.sub-script p{
+  text-transf;
 }
 
 /* contact modal  */
@@ -241,8 +249,8 @@ h1 h2 h3 h4 {
 .job-hout {
   background:
   /* top, transparent black, faked with gradient */ linear-gradient(
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.4)
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.7)
     ),
     /* bottom, image */ url("https://b-737.github.io/Houdt-van-Oud/resources/images/job-hout.jpg");
     border-radius: 30px 0 0 0;
@@ -283,6 +291,37 @@ h1 h2 h3 h4 {
   background-repeat: no-repeat;
 }
 
+/* recent  */
+
+
+#latest .carousel-inner{
+  max-height: 35rem;
+}
+
+#latest .card{
+  max-height: 25rem;
+}
+.parent{
+  
+  position: relative;
+}
+
+.carousel-img{
+  width: 100%;
+  max-height: 30rem;
+  object-position: center center;
+}
+
+.carousel-img-text{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #eeeeee;
+  font-weight: 800;
+  z-index: 1;
+
+}
+
 /* ontwerp  */
 .ontwerp {
   display: flex;
@@ -311,9 +350,6 @@ h1 h2 h3 h4 {
   padding-right: 1rem;
 }
 
-.carousel-inner {
-}
-
 .carousel-item {
   opacity: 0.8;
 }
@@ -336,6 +372,10 @@ h1 h2 h3 h4 {
   /* universal */
   .std-pad {
     padding: 0vh 8%;
+  }
+
+  .left-std-pad{
+    padding-left: 8%;
   }
 
   .min-pad {
@@ -379,7 +419,7 @@ h1 h2 h3 h4 {
   /* carousel  */
   .carousel-inner {
     max-height: 400px;
-    background-color: hsla(0, 0%, 98%, 0.8);
+    background-color: #eeeeee;
     object-fit: contain;
     object-position: -50% 40%;
   }
@@ -390,6 +430,11 @@ h1 h2 h3 h4 {
   /* universal */
   .std-pad {
     padding: 5% 15%;
+  }
+
+  .left-std-pad{
+    padding-left: 15%;
+    background-color: red;
   }
 
   .min-pad {
@@ -431,7 +476,7 @@ h1 h2 h3 h4 {
   /* carousel  */
   .carousel-inner {
     max-height: 400px;
-    background-color: hsla(0, 0%, 98%, 0.8);
+
     display: flex;
     align-items: center;
   }
