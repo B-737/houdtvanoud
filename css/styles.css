@@ -328,9 +328,8 @@ h5 {
   z-index: 1080;
 }
 
+.carousel-indicators{
 
-.carousel-selector{
-  opacity: .5;
 }
 
 .carousel-sup{
@@ -445,7 +444,7 @@ h5 {
 
   /* recent  */
   .carousel-indicators{
-    width: 24vw;
+    width: 18vw;
     height: 10px;
   }
 
