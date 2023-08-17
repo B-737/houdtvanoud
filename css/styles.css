@@ -345,11 +345,10 @@ h5 {
 /* ontwerp  */
 
 .design-badge{
-  right: 10%;
-  top: -.5rem;
-  opacity: .8;
+  left: -1rem;
+  top: -1rem;
+  opacity: .7;
   z-index: 1;
-  height: 1.5rem;
   width: 13rem;
 
 /* opacity: .6; */
