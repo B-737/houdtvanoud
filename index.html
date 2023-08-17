@@ -120,6 +120,9 @@
           <h1>Doen waar u geen kennis, zin of tijd voor heeft.</h1>
           <p>Kijk hoe wij het aanpakken of neem direct contact op.</p>
 
+          <button class="btn btn-light btn btn-left">
+            <i class="fa-solid fa-clipboard"></i> Zie projecten
+        </button>
           <!-- Button trigger modal -->
 
           <button
@@ -457,7 +460,7 @@
 
     <section id="latest" class="light-section">
       <h2 class="std-pad text-center py-3">Recent opgelevered</h2>
-    
+
       <div id="carouselExampleDark" class="carousel carousel-dark slide">
         <div class="carousel-indicators">
           <button
@@ -485,68 +488,74 @@
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="4000">
             <div class="row justify-content-end">
-
               <div class="col-md-5 align-self-center px-4">
                 <h2>Operatie zoldertrap</h2>
-                <p>Grote zolder-ruimte bijna in gebruik vanwege onhandige Vliezo trap.</p>
-                <p>Na plaatsing nieuwe trap is het kantoor boven volledig in gebruik.</p>
-                <button type="button" class="btn btn-primary mb-3">Meer projecten</button>
+                <p>
+                  Grote zolder-ruimte bijna in gebruik vanwege onhandige Vliezo
+                  trap.
+                </p>
+                <p>
+                  Na plaatsing nieuwe trap is het kantoor boven volledig in
+                  gebruik.
+                </p>
+                <button type="button" href="./projecten.html
+                " class="btn btn-primary mb-3">
+                  Meer projecten
+                </button>
               </div>
 
               <div class="col-md-6 d-flex justify-content-center">
                 <div class="parent">
                   <img
-                    src="/resources/images/trap-oud.jpg"
+                    src="./resources/images/trap-oud.jpg"
                     class="carousel-img"
                     alt=""
                   />
-                  <h4 class="carousel-img-text">VOOR</p>
+                  <h4 class="carousel-img-text">VOOR</h4>
                 </div>
                 <div class="parent">
                   <img
-                    src="/resources/images/trap-af.jpeg"
+                    src="./resources/images/trap-af.jpeg"
                     class="carousel-img"
                     alt=""
                   />
-                  <h4 class="carousel-img-text">NA</p>
+                  <h4 class="carousel-img-text">NA</h4>
                 </div>
               </div>
-             
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
-            
-            <div class="row row-cols-1 row-cols-2 g-1">
-              <div class="col">
-                <div class="card text-bg-dark">
-                  <img src="./resources/images/trap-oud.jpg" class="card-img" alt="..." />
-                  <div class="card-img-overlay">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
-                    </p>
-                    <p class="card-text">
-                      <small>Last updated 3 mins ago</small>
-                    </p>
-                  </div>
-                </div>
+            <div class="row justify-content-end">
+              <div class="col-md-5 align-self-center px-4">
+                <h2>Kozijn kast</h2>
+                <p>
+                  Geen lost-staande kast, maar compleet ingebouwd met het
+                  kozijn.
+                </p>
+
+                <p>
+                  Router en electra zijn keurig beschikbaar achter deurtje aan onderzijde. 
+                </p>
+                <button type="button" href="./projecten.html" class="btn btn-primary mb-3">Meer Projecten
+                </button>
               </div>
-              <div class="col">
-                <div class="card text-bg-dark">
-                  <img src="./resources/images/trap-af.jpeg" class="card-img" alt="..." />
-                  <div class="card-img-overlay">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
-                    </p>
-                    <p class="card-text">
-                      <small>Last updated 3 mins ago</small>
-                    </p>
-                  </div>
+
+              <div class="col-md-6 d-flex justify-content-center">
+                <div class="parent">
+                  <img
+                    src="./resources/images/kast-voor.jpg"
+                    class="carousel-img"
+                    alt=""
+                  />
+                  <h4 class="carousel-img-text">VOOR</h4>
+                </div>
+                <div class="parent">
+                  <img
+                    src="./resources/images/kast-af.jpg"
+                    class="carousel-img"
+                    alt=""
+                  />
+                  <h4 class="carousel-img-text">NA</h4>
                 </div>
               </div>
             </div>
@@ -610,19 +619,6 @@
         </div>
       </div>
     </section>
-
-    <script>
-      jQuery("job").click(function (e) {
-        jQuery(".collapse").collapse("hide");
-      });
-    </script>
-
-    <script>
-      var $myGroup = $("#myGroup");
-      $myGroup.on("show.bs.collapse", ".collapse", function () {
-        $myGroup.find(".collapse.in").collapse("hide");
-      });
-    </script>
 
     <section id="ontwerp" class="std-pad light-section py-5">
       <div class="row">

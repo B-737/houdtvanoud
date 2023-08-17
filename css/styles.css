@@ -11,7 +11,7 @@ h1 h2 h3 h4 {
   padding: 0rem 1rem;
 }
 
-.left-std-pad{
+.left-std-pad {
   padding-left: 1rem;
 }
 
@@ -27,7 +27,10 @@ h1 h2 h3 h4 {
   font-weight: 400;
 }
 
-.light-section h2, h3, h4, h5 {
+.light-section h2,
+h3,
+h4,
+h5 {
   color: hsla(0, 0%, 0%, 0.8);
   font-size: 2rem;
   font-weight: 700;
@@ -90,11 +93,6 @@ h1 h2 h3 h4 {
 #hero {
   padding-top: 8rem;
   padding-bottom: 5rem;
-
-}
-
-.sub-script p{
-  text-transf;
 }
 
 /* contact modal  */
@@ -124,7 +122,7 @@ h1 h2 h3 h4 {
       url("https://b-737.github.io/Houdt-van-Oud/resources/images/herodark-sm.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment:;
+  background-attachment: ;
   background-position: center top -1px;
 }
 
@@ -175,12 +173,12 @@ h1 h2 h3 h4 {
   opacity: 0.9;
 }
 
-.year-counter{
-  position:absolute;
+.year-counter {
+  position: absolute;
   font-size: 10rem;
   font-weight: 900;
-  color: hsl(0, 0%, 0%, .07);
-  line-height: .6;
+  color: hsl(0, 0%, 0%, 0.07);
+  line-height: 0.6;
 }
 
 /* ANNO 2017 */
@@ -192,25 +190,25 @@ h1 h2 h3 h4 {
     ),
     /* bottom, image */
       url("https://b-737.github.io/Houdt-van-Oud/resources/images/theowner-sm.png");
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-position: center center;
-      background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
 }
 
 .anno-quote {
   text-align: end;
 }
 
-.anno .list-group-item{
+.anno .list-group-item {
   color: #ffffff;
   opacity: 0.95;
-  border: hsl(0, 0%, 100%, .0) solid .4px;
+  border: hsl(0, 0%, 100%, 0) solid 0.4px;
 }
 
 /* work*/
 
-.work{
+.work {
   background-color: #eeeeee;
 }
 
@@ -224,11 +222,10 @@ h1 h2 h3 h4 {
   transition: all 0.3s;
 }
 
-.job-card{
-  position:relative;
+.job-card {
+  position: relative;
   z-index: 1;
 }
-
 
 .job h2 {
   font-size: 2.5rem;
@@ -241,7 +238,7 @@ h1 h2 h3 h4 {
   padding-bottom: 2rem;
 }
 
-.job-icon{
+.job-icon {
 }
 
 /* background images for jobs  */
@@ -252,8 +249,9 @@ h1 h2 h3 h4 {
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.7)
     ),
-    /* bottom, image */ url("https://b-737.github.io/Houdt-van-Oud/resources/images/job-hout.jpg");
-    border-radius: 30px 0 0 0;
+    /* bottom, image */
+      url("https://b-737.github.io/Houdt-van-Oud/resources/images/job-hout.jpg");
+  border-radius: 30px 0 0 0;
 }
 
 .job-electra {
@@ -262,7 +260,8 @@ h1 h2 h3 h4 {
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.6)
     ),
-    /* bottom, image */ url("https://b-737.github.io/Houdt-van-Oud/resources/images/Electra.jpg");
+    /* bottom, image */
+      url("https://b-737.github.io/Houdt-van-Oud/resources/images/Electra.jpg");
 }
 
 .job-verf {
@@ -271,7 +270,8 @@ h1 h2 h3 h4 {
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.6)
     ),
-    /* bottom, image */ url("https://b-737.github.io/Houdt-van-Oud/resources/images/schilder-sm.png");
+    /* bottom, image */
+      url("https://b-737.github.io/Houdt-van-Oud/resources/images/schilder-sm.png");
 }
 
 .job-goot {
@@ -280,12 +280,12 @@ h1 h2 h3 h4 {
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.6)
     ),
-    /* bottom, image */ url("https://b-737.github.io/Houdt-van-Oud/resources/images/job-goot.jpg");
-    border-radius: 0 0 30px 0;
+    /* bottom, image */
+      url("https://b-737.github.io/Houdt-van-Oud/resources/images/job-goot.jpg");
+  border-radius: 0 0 30px 0;
 }
 
-
-.job{
+.job {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -293,33 +293,30 @@ h1 h2 h3 h4 {
 
 /* recent  */
 
-
-#latest .carousel-inner{
+#latest .carousel-inner {
   max-height: 35rem;
 }
 
-#latest .card{
+#latest .card {
   max-height: 25rem;
 }
-.parent{
-  
+.parent {
   position: relative;
 }
 
-.carousel-img{
+.carousel-img {
   width: 100%;
   max-height: 30rem;
   object-position: center center;
 }
 
-.carousel-img-text{
+.carousel-img-text {
   position: absolute;
   top: 20px;
   left: 20px;
   color: #eeeeee;
   font-weight: 800;
   z-index: 1;
-
 }
 
 /* ontwerp  */
@@ -335,7 +332,7 @@ h1 h2 h3 h4 {
 }
 
 .ontwerp-left img {
-  width: 40vw;
+  width: 37vw;
   max-width: 400px;
 }
 
@@ -374,7 +371,7 @@ h1 h2 h3 h4 {
     padding: 0vh 8%;
   }
 
-  .left-std-pad{
+  .left-std-pad {
     padding-left: 8%;
   }
 
@@ -382,7 +379,7 @@ h1 h2 h3 h4 {
     padding: 0% 8%;
   }
 
-  .work-pad{
+  .work-pad {
     padding: 0% 8%;
   }
 
@@ -409,8 +406,6 @@ h1 h2 h3 h4 {
     padding: 0% 8%;
   }
 
-  
-
   #hero {
     padding-top: 20%;
     padding-bottom: 5%;
@@ -432,7 +427,7 @@ h1 h2 h3 h4 {
     padding: 5% 15%;
   }
 
-  .left-std-pad{
+  .left-std-pad {
     padding-left: 15%;
     background-color: red;
   }
@@ -441,7 +436,7 @@ h1 h2 h3 h4 {
     padding: 2% 15%;
   }
 
-  .work-pad{
+  .work-pad {
     padding: 0% 15%;
   }
 
