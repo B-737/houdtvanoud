@@ -293,26 +293,9 @@ h5 {
 
 /* recent  */
 
-#latest .carousel-inner {
-  max-height: 35rem;
-}
-
-#latest .card {
-  max-height: 25rem;
-}
 #latest .carousel-inner h2, 
 #latest .carousel-inner p{
   color: rgb(0, 0, 0);
-}
-.parent {
-  position: relative;
-}
-
-.carousel-img {
-
-  width: 100%;
-  max-height: 30rem;
-  object-position: center center;
 }
 
 .carousel-img-text {
@@ -324,22 +307,26 @@ h5 {
   z-index: 1;
 }
 
-.carousel-inner .btn {
-  position: relative;
-  z-index: 1080;
+.dia{
+  min-height: 35rem;
+  justify-content: center;
 }
 
-.carousel-indicators{
-
+.dia-text{
+  align-self: center;
+  align-content: center;
+  align-items: center;
 }
 
-.carousel-sup{
-  padding-bottom: -2rem;
-  padding-bottom: -2rem;
+.parent{
+  position:relative;
 }
-
-.recent-btn{
-  margin-bottom: 1rem;
+.carousel-img {
+  max-height: 25rem;
+  height: 100%;
+  max-width: 50vw;
+  object-fit: cover;
+  object-position: center center;
 }
 
 
@@ -448,6 +435,18 @@ height: 1.2rem;
     height: 10px;
   }
 
+  .carousel-control-prev{
+    max-width: 6rem;
+  }
+
+  .carousel-img {
+    max-height: 25rem;
+    height: 100%;
+    max-width: 25vw;
+    object-fit: cover;
+    object-position: center center;
+  }
+
 }
 
 /* LAPTOP'ISH for devices with a width of ATLEAST 992px */
@@ -504,6 +503,11 @@ height: 1.2rem;
 
     display: flex;
     align-items: center;
+  }
+
+  /* recent  */
+  .carousel-control-prev{
+    max-width: 8rem;
   }
 
 
