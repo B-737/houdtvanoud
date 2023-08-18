@@ -308,7 +308,7 @@ h5 {
 }
 
 .dia{
-  min-height: 35rem;
+  min-height: 30rem;
   justify-content: center;
 }
 
@@ -333,7 +333,7 @@ h5 {
 /* ontwerp  */
 
 .design-badge{
-  left: -2rem;
+  left: -1rem;
   top: -2rem;
   opacity: .7;
 
@@ -421,17 +421,9 @@ height: 1.2rem;
     padding-bottom: 5%;
   }
 
-  /* carousel  */
-  .carousel-inner {
-    max-height: 400px;
-    background-color: #eeeeee;
-    object-fit: contain;
-    object-position: -50% 40%;
-  }
-
   /* recent  */
   .carousel-indicators{
-    width: 18vw;
+    width: 20vw;
     height: 10px;
   }
 
@@ -446,6 +438,17 @@ height: 1.2rem;
     object-fit: cover;
     object-position: center center;
   }
+
+  /* design  */
+  .design-dia{
+    max-height: 30rem;
+  }
+
+  .design-img{
+
+  }
+
+
 
 }
 
@@ -497,18 +500,18 @@ height: 1.2rem;
     padding-bottom: 5%;
   }
 
-  /* carousel  */
-  .carousel-inner {
-    max-height: 400px;
-
-    display: flex;
-    align-items: center;
-  }
-
   /* recent  */
+
   .carousel-control-prev{
     max-width: 8rem;
   }
+
+    /* design  */
+    .design-carousel-inner {
+      max-height: 400px;
+      display: flex;
+      align-items: center;
+    }
 
 
 }
