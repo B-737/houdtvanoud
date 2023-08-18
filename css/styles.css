@@ -191,7 +191,6 @@ h5 {
     /* bottom, image */
       url("https://b-737.github.io/Houdt-van-Oud/resources/images/theowner-sm.png");
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: center center;
   background-size: cover;
 }
