@@ -330,13 +330,18 @@ h5 {
 
 
 /* ontwerp  */
+.design-text{
+  position: relative;
+}
 
 .design-badge{
-  left: -1rem;
-  top: -2rem;
+  right: 25%;
+  top: -.5rem;
   opacity: .7;
-
+  transform: rotate(6deg);
   width: 13rem;
+  position: relative;
+  z-index: 0;
 
 /* opacity: .6; */
 }
