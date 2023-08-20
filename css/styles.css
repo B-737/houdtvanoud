@@ -3,6 +3,8 @@ h1 h2 h3 h4 {
   font-weight: 700;
 }
 
+
+
 .land-pad {
   padding: 0rem 1rem;
 }
@@ -328,6 +330,20 @@ h5 {
   object-position: center center;
 }
 
+/* stappen */
+
+#stappen{
+  background:
+  /* top, transparent black, faked with gradient */ linear-gradient(
+      hsl(0, 0%, 93%, .8),
+      hsl(0, 0%, 93%, .8)
+    ),
+    /* bottom, image */
+      url("https://b-737.github.io/Houdt-van-Oud/resources/images/hout-sm.jpg");
+}
+}
+
+
 
 /* ontwerp  */
 .design-text{
@@ -468,7 +484,7 @@ height: 1.2rem;
 @media (min-width: 992px) {
   /* universal */
   .std-pad {
-    padding: 5% 15%;
+    padding: 0 15%;
   }
 
   .left-std-pad {
@@ -522,7 +538,7 @@ height: 1.2rem;
 
     .design-badge{
       right: 25%;
-      top: 1rem;
+      top: -1rem;
       opacity: .6;
       transform: rotate(7deg);
       width: 13rem;
@@ -531,7 +547,7 @@ height: 1.2rem;
     }
 
     .design-carousel-inner {
-      max-height: 400px;
+      max-height: 500px;
       display: flex;
       align-items: center;
     }
