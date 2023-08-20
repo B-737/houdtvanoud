@@ -6,6 +6,7 @@
     <title>Projecten</title>
 
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles-projecten.css">
 
     <!-- fonts  -->
     <!-- Libre Baskerville  -->
@@ -58,11 +59,20 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/0efb4d4bb4.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
 </head>
 <body>
 
      <!-- landing zone -->
-     <section class="land-pad" id="landing">
+     <section class="land-pad" id="project">
         <nav class="navbar navbar-expand-sm navbar-dark bg-transparent">
           <a class="navbar-brand" id="navbar-brand" href="https://b-737.github.io/Houdt-van-Oud">
             <div id="brand-font" class="brand-long dark-section">
@@ -99,10 +109,10 @@
           </div>
         </nav>
   
-        <div id="hero" class="row">
-          <div class="col-md-9 col-lg-8 hero-left dark-section">
-            <h1>Wij zijn nog aan het werk met deze pagina.</h1>
-            <p>In onze uitgebreide projecten gallerij. Hier kun je zien hoe en wat voor een werk wij leveren. Tevreden klanten, en mooi werk. Daar kom ik mijn bed voor uit. <sup>*</sup></p>
+        <div id="project-hero" class="row py-5">
+          <div class="col-md-9 col-lg-8 hero-left dark-section pt-5">
+            <h1>Bekijk het.</h1>
+            <p class="py-2">In onze uitgebreide projecten gallerij. Hier kun je zien hoe en wat voor een werk wij leveren. Tevreden klanten, en mooi werk. Daar kom ik mijn bed voor uit. <sup>*</sup></p>
 
             <div class="hero-btns mb-3">
 
@@ -121,10 +131,6 @@
         </div>
 
         <p class="sub-script float-end"><sup> * Met uitzondering op Nederlandse, Katolieke, Joodse, Buddhistische, Hindoestaanse en Christelijke feestdagen, of voor 08:30.</sup>
-        <br>
-        <sup>
-            * Geen voorwaarden worden ontleent als ik nog niet uit ben ben na 08:30.
-        </sup>
     
     </p>
           </div>
@@ -183,28 +189,58 @@
         </div>
       </section>
 
-<section>
-  <div id="myGroup">
-    <button class="btn dropdown" data-toggle="collapse" data-target="#keys" data-parent="#myGroup"><i class="icon-chevron-right"></i> Keys  <span class="badge badge-info pull-right">X</span></button>
-    <button class="btn dropdown" data-toggle="collapse" data-target="#attrs" data-parent="#myGroup"><i class="icon-chevron-right"></i> Attributes</button>
-    <button class="btn dropdown" data-toggle="collapse" data-target="#edit" data-parent="#myGroup"><i class="icon-chevron-right"></i> Edit Details</button>
+      <section id="categorie" class="light-section std-pad py-3">
+        <div class="card-group">
+          <div class="card">
+            <img src="/resources/images/dakterras.lg.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dak terras</h5>
+              <p class="card-text">Van 24m² onbruikbaar dak naar zomer-avonden dansen op je terras.</p>
+              <p class="card-text"><small class="text-muted">Tuin</small></p>
+            </div>
+          </div>
 
-    <div class="accordion-group">
-        <div class="collapse indent" id="keys">
-            keys
-        </div>
+          <div class="card">
+            <img src="/resources/images/stal-schuur.lg.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Noeste stal trap</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <p class="link" data-bs-target="#exampleModal">Meer ></p>
+                   
+            </div>
+            <div class="card-footer">
+              <small class="text-muted"><i class="fa-solid fa-tree"></i> Tuin</small>
+            </div>
+          </div>
 
-        <div class="collapse indent" id="attrs">
-            attrs
-        </div>
+          <!-- Button trigger modal -->
 
-        <div class="collapse" id="edit">
-            edit
-        </div>
+
+<!-- Modal -->
+<div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
     </div>
+  </div>
 </div>
-</section>
-  
+
+
+          
+
+        </div>
+      </section>
+ 
     
 </body>
 </html>
