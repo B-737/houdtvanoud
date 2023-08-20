@@ -1,40 +1,32 @@
 #project {
-    background:
-    /* top, transparent black, faked with gradient */ 
-    linear-gradient(
+  background:
+    /* top, transparent black, faked with gradient */ linear-gradient(
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.6)
     ),
     /* bottom, image */
-      url("/resources/images/meet.sm.jpg");
-      background-size: cover;
-      background-position:  center;
-
-      
-    }
-
-    @media (min-width: 992px){
-
-        #project {
-            background:
-            /* top, transparent black, faked with gradient */ linear-gradient(
-                rgba(0, 0, 0, 0.6),
-                rgba(0, 0, 0, 0.3),
-                rgba(0, 0, 0, 0.6) 
-            ),
-            /* bottom, image */
-              url("/resources/images/meet-lg.jpg");
-              background-repeat: no-repeat;
-              background-size: cover;
-        
-        
-
-      }
-
+      url("https://b-737.github.io/Houdt-van-Oud/resources/images/meet.sm.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
-.card-img-top{
-    height: 15rem;
-    object-fit: cover;
-    }
+@media (min-width: 992px) {
+  #project {
+    background:
+            /* top, transparent black, faked with gradient */ linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.6)
+      ),
+      /* bottom, image */
+        url("https://b-737.github.io/Houdt-van-Oud/resources/images/meet-lg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.card-img-top {
+  height: 15rem;
+  object-fit: cover;
+}
