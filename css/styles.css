@@ -415,7 +415,15 @@ h5 {
     padding: 0% 8%;
   }
 
-  h2 {
+  .light-section h2 {
+    font-size: 2rem;
+  }
+
+  .off-section h2 {
+    font-size: 2rem;
+  }
+
+  .dark-section h2 {
     font-size: 2rem;
   }
 
@@ -426,8 +434,6 @@ h5 {
   .light-section p {
     opacity: 0.9;
   }
-
-  /* dark areas */
 
   /* LANDING */
   .land-pad h1 {
@@ -500,12 +506,22 @@ h5 {
     padding: 0% 15%;
   }
 
-  h2 {
+  .light-section h2 {
+    font-size: 3rem;
+  }
+
+  .off-section h2{
     font-size: 3rem;
   }
 
   .light-section p {
     opacity: 0.9;
+  }
+
+  /* dark areas */
+
+  .dark-section h2 {
+    font-size: 3rem;
   }
 
   /* LANDING */
