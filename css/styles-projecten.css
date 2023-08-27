@@ -3,7 +3,7 @@
     /* top, transparent black, faked with gradient */ linear-gradient(
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.6)
+      rgba(0, 0, 0, 0.9)
     ),
     /* bottom, image */
       url("https://b-737.github.io/Houdt-van-Oud/resources/images/meet.sm.jpg");
@@ -12,6 +12,11 @@
 }
 
 @media (min-width: 992px) {
+
+  #project-hero{
+    margin-top: 4rem;
+  }
+
   #project {
     background:
             /* top, transparent black, faked with gradient */ linear-gradient(
@@ -23,6 +28,11 @@
         url("https://b-737.github.io/Houdt-van-Oud/resources/images/meet-lg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .project img{
+    max-height: 600px;
+    object-fit: cover;
   }
 }
 

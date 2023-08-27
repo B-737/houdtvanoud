@@ -331,19 +331,6 @@ h5 {
 
 /* stappen */
 
-#stappen{
-  background:
-  /* top, transparent black, faked with gradient */ linear-gradient(
-      hsl(0, 0%, 93%, .8),
-      hsl(0, 0%, 93%, .8)
-    ),
-    /* bottom, image */
-      url("https://b-737.github.io/Houdt-van-Oud/resources/images/hout-sm.jpg");
-}
-}
-
-
-
 /* ontwerp  */
 .design-text{
   position: relative;
