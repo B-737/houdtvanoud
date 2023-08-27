@@ -3,8 +3,6 @@ h1 h2 h3 h4 {
   font-weight: 700;
 }
 
-
-
 .land-pad {
   padding: 0rem 1rem;
 }
@@ -39,6 +37,26 @@ h5 {
 }
 
 .light-section p {
+  opacity: 0.9;
+}
+
+/* off-section  */
+.off-section {
+  background-color: #d8d8d8;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.off-section h2,
+h3,
+h4,
+h5 {
+  color: #1e1e1e;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.off-section p {
   opacity: 0.9;
 }
 
@@ -293,8 +311,8 @@ h5 {
 
 /* recent  */
 
-#latest .carousel-inner h2, 
-#latest .carousel-inner p{
+#latest .carousel-inner h2,
+#latest .carousel-inner p {
   color: rgb(0, 0, 0);
 }
 
@@ -307,19 +325,19 @@ h5 {
   z-index: 1;
 }
 
-.dia{
+.dia {
   min-height: 30rem;
   justify-content: center;
 }
 
-.dia-text{
+.dia-text {
   align-self: center;
   align-content: center;
   align-items: center;
 }
 
-.parent{
-  position:relative;
+.parent {
+  position: relative;
 }
 .carousel-img {
   max-height: 25rem;
@@ -332,22 +350,22 @@ h5 {
 /* stappen */
 
 /* ontwerp  */
-.design-text{
+.design-text {
   position: relative;
 }
 
-.design-badge{
+.design-badge {
   right: 10%;
   top: -1rem;
-  opacity: .6;
+  opacity: 0.6;
   transform: rotate(7deg);
   width: 13rem;
   position: relative;
   z-index: 0;
 }
 
-#design-img{
-height: 1.2rem;
+#design-img {
+  height: 1.2rem;
 }
 
 /* design  */
@@ -397,8 +415,12 @@ height: 1.2rem;
     padding: 0% 8%;
   }
 
-  .light-section h2 {
+  h2 {
     font-size: 2rem;
+  }
+
+  .off-section p {
+    opacity: 0.9;
   }
 
   .light-section p {
@@ -406,10 +428,6 @@ height: 1.2rem;
   }
 
   /* dark areas */
-
-  .dark-section h2 {
-    font-size: 2rem;
-  }
 
   /* LANDING */
   .land-pad h1 {
@@ -426,12 +444,12 @@ height: 1.2rem;
   }
 
   /* recent  */
-  .carousel-indicators{
+  .carousel-indicators {
     width: 20vw;
     height: 10px;
   }
 
-  .carousel-control-prev{
+  .carousel-control-prev {
     max-width: 6rem;
   }
 
@@ -444,26 +462,22 @@ height: 1.2rem;
   }
 
   /* design  */
-  .design-dia{
+  .design-dia {
     max-height: 30rem;
   }
 
-  .design-badge{
+  .design-badge {
     right: 10%;
     top: -2rem;
-    opacity: .6;
+    opacity: 0.6;
     transform: rotate(7deg);
     width: 13rem;
     position: relative;
     z-index: 0;
   }
 
-  .design-img{
-
+  .design-img {
   }
-
-
-
 }
 
 /* LAPTOP'ISH for devices with a width of ATLEAST 992px */
@@ -486,18 +500,12 @@ height: 1.2rem;
     padding: 0% 15%;
   }
 
-  .light-section h2 {
+  h2 {
     font-size: 3rem;
   }
 
   .light-section p {
     opacity: 0.9;
-  }
-
-  /* dark areas */
-
-  .dark-section h2 {
-    font-size: 3rem;
   }
 
   /* LANDING */
@@ -516,27 +524,25 @@ height: 1.2rem;
 
   /* recent  */
 
-  .carousel-control-prev{
+  .carousel-control-prev {
     max-width: 8rem;
   }
 
-    /* design  */
+  /* design  */
 
-    .design-badge{
-      right: 25%;
-      top: -1rem;
-      opacity: .6;
-      transform: rotate(7deg);
-      width: 13rem;
-      position: relative;
-      z-index: 0;
-    }
+  .design-badge {
+    right: 25%;
+    top: -1rem;
+    opacity: 0.6;
+    transform: rotate(7deg);
+    width: 13rem;
+    position: relative;
+    z-index: 0;
+  }
 
-    .design-carousel-inner {
-      max-height: 500px;
-      display: flex;
-      align-items: center;
-    }
-
-
+  .design-carousel-inner {
+    max-height: 500px;
+    display: flex;
+    align-items: center;
+  }
 }
