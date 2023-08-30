@@ -135,8 +135,9 @@ h5 {
 .land-pad {
   background:
     /* top, transparent black, faked with gradient */ linear-gradient(
-      rgb(255, 255, 255, .3),
-      rgba(255, 255, 255, 0)
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.9)
     ),
     /* bottom, image */
       url("https://b-737.github.io/Houdt-van-Oud/resources/images/herodark-sm.png");
@@ -436,6 +437,21 @@ h5 {
   }
 
   /* LANDING */
+
+  .land-pad {
+    background:
+      /* top, transparent black, faked with gradient */ linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.9)
+      ),
+      /* bottom, image */
+        url("https://b-737.github.io/Houdt-van-Oud/resources/images/herodark-lg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top -1px;
+  }
+
   .land-pad h1 {
     font-size: 3rem;
   }
