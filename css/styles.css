@@ -465,6 +465,20 @@ h5 {
     padding-bottom: 5%;
   }
 
+  /* anno */
+  #anno {
+    background:
+    /* top, transparent black, faked with gradient */ linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.7)
+      ),
+      /* bottom, image */
+        url("https://b-737.github.io/Houdt-van-Oud/resources/images/theowner-lg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
   /* recent  */
   .carousel-indicators {
     width: 20vw;
