@@ -555,6 +555,40 @@ h5 {
   }
 
   /* LANDING */
+
+  #brand-font {
+    font-family: "Libre Baskerville", serif;
+    letter-spacing: -4px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.8rem;
+    display: flex;
+    position: relative;
+    top: 10px;
+  }
+  
+  .brand-mid {
+    transform: rotate(270deg);
+    font-size: 1.3rem;
+    font-weight: 700;
+    align-self: center;
+    position: relative;
+    top: 38px;
+    left: -190px;
+
+    letter-spacing: 0;
+  }
+  
+  .brand-last {
+    font-size: 3.7rem;
+    font-weight: 700;
+    align-self: center;
+    position: relative;
+    top: 38px;
+    left: -205px;
+    letter-spacing: 0;
+  }
+
   .land-pad h1 {
     font-size: 3rem;
   }
