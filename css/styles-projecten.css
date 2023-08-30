@@ -8,7 +8,8 @@
     /* bottom, image */
       url("https://b-737.github.io/Houdt-van-Oud/resources/images/meet.sm.jpg");
   background-size: cover;
-  background-position: center -30%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 @media (min-width: 992px) {
@@ -28,6 +29,8 @@
         url("https://b-737.github.io/Houdt-van-Oud/resources/images/meet-lg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
+    /* background-position: center; */
   }
 
   .project img{
