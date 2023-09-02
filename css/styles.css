@@ -135,7 +135,7 @@ h5 {
 .land-pad {
   background:
     /* top, transparent black, faked with gradient */ linear-gradient(
-      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.9)
     ),
@@ -229,6 +229,11 @@ h5 {
 
 .work {
   background-color: #eeeeee;
+}
+
+.fa-pinterest{
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .job {
